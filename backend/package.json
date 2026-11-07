@@ -6,7 +6,11 @@
   "scripts": {
   "start": "node index.js",
   "dev": "nodemon index.js"
+<<<<<<< HEAD
   },
+=======
+                                                                                                                                                                                                                                                      },
+>>>>>>> 4e852a7 (chore:configure the API endpoints)
   "keywords": [],
   "author": "",
   "license": "ISC",

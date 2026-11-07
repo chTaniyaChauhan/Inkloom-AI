@@ -19,6 +19,8 @@ function App() {
   setFinalContent(null);
   };
 
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:3000";
+
   async function handleCheck() {
     if (!guidelines.trim() || !content.trim()) {
       setError("Please enter both brand guidelines and content.");
@@ -33,7 +35,7 @@ function App() {
     setFinalContent(null);
 
     try {
-      const response = await fetch("http://localhost:3000/api/check", {
+      const response = await fetch(`${API_BASE_URL}/api/check`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
