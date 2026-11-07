@@ -49,7 +49,7 @@ Inkloom AI aims to make this review process smarter and more efficient through A
 
 ```text
 Inkloom-AI/
-├── client/
+├── frontend/
 │   ├── src/
 │   └── package.json
 │
@@ -67,7 +67,7 @@ Inkloom-AI/
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone repo_url
 cd Inkloom-AI
 ```
 
@@ -76,7 +76,7 @@ cd Inkloom-AI
 Open a terminal:
 
 ```bash
-cd client
+cd frontend
 npm install
 npm run dev
 ```
@@ -118,14 +118,6 @@ The frontend runs on the Vite development server, and the backend runs on port 3
 Currently under development as a working MVP for **CodeNexus India 2026 Hackathon – Round 2**.
 
 The frontend-backend integration and Gemini-powered content analysis have been implemented. Human review and final content approval are planned for the next development phase.
-
-## Author
-
-**Taniya Chauhan**
-
-MTech CSE | Geeta University
-
----
 
 ## Latest Implementation Update – 7 November 2026
 
